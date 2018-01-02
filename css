@@ -1,0 +1,78 @@
+body {
+	background-color: #ffffff;
+	background-position: center; 
+	background-attachment: fixed;
+	 background-repeat: repeat; 
+	font-family: Consolas; font-size: 10px;
+}
+
+/*Sidebar*/
+#side {
+	background-color: #fff; /*cor*/
+	position: absolute; /*esse cód. deixa tudo alinhadinho, não mude*/
+	padding: 5px; /*espaçamento, modifique a gosto!*/
+	margin-top: 50px; /*distância do topo, modifique como quiser*/
+	margin-left: 50px; /*distância da esquerda, modifique até ficar como quer*/
+}
+
+/*Área de postagens*/
+#post {
+	background: #fff; /*bg*/
+	width: 500px; /*tamanho dos posts*/
+	padding: 5px; /*espaçamento entre as bordas*/
+	margin-top: 30px; /*dist. do topo*/
+	margin-left: 300px; /*distancia da esquerda*/
+	position: absolute; /*mantém tudo alinhado*/
+}
+
+/*Título das postagens*/
+h1 {
+	font-family: 'Georgia'; 
+	font-style: bold; 
+	color: #000; 
+	text-align: center; 
+	font-size: 11px;
+}
+
+blockquote {
+	border-left: 2px solid #696969;
+}
+
+/*Opacidade*/
+.foto {
+	width: 180px; 
+	height: 180px;
+}
+
+.foto:hover {
+	opacity: 0.7; 
+	-webkit-transition: all 0.99s ease-in-out;
+}
+
+/*Links*/
+a:link {
+	color: #DEB887; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000; 
+	-webkit-transition: all 0.99s ease-in-out;
+}
+
+/*Descrição*/
+#desc {
+	text-align: justify; 
+	width: 180px;
+}
+
+/*estilo de notes por sua-barbie-preferida SE USAR CREDITE!!*/
+.not {
+	width: 496px; 
+	background: #fff; 
+	padding: 2px; 
+	color: #000; 
+	font-family: 'Consolas'; 
+	font-size: 10px; 
+	text-align: center;
+} 
